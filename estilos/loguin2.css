@@ -33,7 +33,61 @@ form{
     align-items: center;
     gap: 10px;
 }
-
+/*
 #inome, #isenha, #iemail{
     width: 10vw;
+}
+    */
+
+@media screen and (max-width:768px){
+   #inome, #isenha, #iemail{
+    width: 10vw;
+}
+    
+    #formulario{
+        width: 110%;
+       max-width: 400px;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+    form{
+        width: 100%;
+          display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+   }
+   main{
+    margin: auto;
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+    
+     #inome, #isenha, #iemail{
+        width: 50%;
+        background-color: aquamarine;
+        color: rgb(12, 26, 26);
+     }
+     label{
+        font-weight:600 ;
+        color: aliceblue;
+     }
+
 }
