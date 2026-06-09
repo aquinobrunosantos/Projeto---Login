@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+main{
+    width: 60%;
+    height:600px;
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+     border: 1px solid black;
+     padding: 5px;
+     width: 18vw;
+     height: 50vh;
+
+}
+
+.botoes{
+    width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#inome, #isenha, #iemail{
+    width: 10vw;
+}
